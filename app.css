@@ -9,6 +9,11 @@ body {
     transition: background 500ms;
 }
 
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .candy_title {
     color: white;
     text-transform: uppercase;
@@ -29,6 +34,9 @@ body {
 
 p {
     color: #f498b8;
+    line-height: 2;
+    font-weight: 100;
+    font-size: 1.125rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -39,8 +47,19 @@ p {
     
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EA1C2C;
+}
+
 .navbar-light .navbar-brand {
     color: #EA1C2C;
     text-transform: uppercase;
     font-weight: 100;
 }
+
+.navbar-light .navbar-brand:hover {
+    color: #EA1C2C;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
